@@ -46,7 +46,7 @@ mtcars[3]
 mtcars[2,]
 #impressao da segunda linha da base#
 mtcars[4,2]
-#o quarto elemento é o 6 do Hornet 4 Drive na coluna do cyl#
+#o quarto elemento e o 6 do Hornet 4 Drive na coluna do cyl#
 
 summary(mtcars)
 #RESUMO GERAL#
@@ -82,9 +82,9 @@ View(turmas_pe)
 dim(turmas)
 #dimensao do objeto#
 mean(turmas_pe$NU_MATRICULAS)
-#achar a media#
+#achando a media#
 
-#RESPOSTA FINAL: a media do numero de matriculas é 23.07089#
+#RESPOSTA FINAL: a media do numero de matriculas e 23.07089#
 
 
 ####Pergunta 6####
@@ -116,6 +116,7 @@ prop.table(table(docentes_pe$TP_COR_RACA))*100
 
 # RESPOSTA: 
 #percentual de docentes que não se declararam sobre a cor ou raça = 44%
-#alunos se declararam pretos = 
-#alunos se declararam pardos = 
-#resultado da soma daqueles que se declararam ser preto e pardo = 
+#alunos se declararam pretos = 3.5%
+#alunos se declararam pardos = 27.7%
+3.5+27.7
+#resultado da soma daqueles que se declararam ser preto e pardo = 31.2%
